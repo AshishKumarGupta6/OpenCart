@@ -17,8 +17,8 @@ import java.util.Properties;
 
 public class BaseTest {
 
-    public static WebDriver driver;
-    public static Properties prop;
+    public static  WebDriver driver;
+    public static  Properties prop;
     public static Logger logger;
 
     @Parameters({"browser"})

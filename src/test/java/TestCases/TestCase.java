@@ -3,7 +3,7 @@ package TestCases;
 import DataProvider.DataDrivenProcess;
 import ExcelUtilPack.ExcelUtil;
 
-import Listner.MyListen;
+import ExtentReportsManager.ExtentReport;
 import PageObjects.HomePage;
 import PageObjects.RegisterPage;
 import RandomInput.RandomValue;
@@ -17,7 +17,7 @@ import org.testng.asserts.SoftAssert;
 import java.io.IOException;
 
 
-@Listeners(MyListen.class)
+@Listeners(ExtentReport.class)
 public class TestCase extends BaseTest {
 
     public  int rowIndex = 1;

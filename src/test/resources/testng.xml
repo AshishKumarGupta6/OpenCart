@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
+<suite name="All Test Suite"  >
     <test  name="RegistrationTests">
         <parameter name="browser" value="chrome"/>
 
         <classes>
-            <class name="TestCases.TestCase">
-                <methods>
-                    <include name="runTest"/>
-                </methods>
-            </class>
+            <class name="TestCases.TestCase" />
         </classes>
     </test>
+
 
 </suite>
